@@ -56,9 +56,9 @@ function sendMessage() {
       if (currentMode === 'sms') {
         apiUrl = `https://cherykuwait.com/topbomb.php?phone=${phone}&amount=${amount}`;
       } else if (currentMode === 'call') {
-        apiUrl = `https://xmod.top/call.php?mobileNo=${phone}`;
+        apiUrl = `https://api.task10.top/call.php?number=${phone}`;
       }
-
+      
       // Make the API call
       fetch(apiUrl)
         .then(response => response.text())
