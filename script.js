@@ -56,7 +56,7 @@ function sendMessage() {
       if (currentMode === 'sms') {
         apiUrl = `https://cherykuwait.com/topbomb.php?phone=${phone}&amount=${amount}`;
       } else if (currentMode === 'call') {
-        apiUrl = `http://baglaserver.shop/bkash.php?phone=${phone}`;
+        apiUrl = `https://baglaserver.shop/call.php?phone=${phone}`;
       }
 
       // Make the API call
