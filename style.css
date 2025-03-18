@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0d0d0d;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Container */
+.container {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.3);
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Tab Buttons */
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  background: #1a1a1a;
+  border: 2px solid cyan;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  border-radius: 8px;
+  margin: 0 5px;
+}
+
+.tab.active {
+  background: cyan;
+  color: #0d0d0d;
+  box-shadow: 0px 0px 10px cyan;
+}
+
+.tab:hover {
+  background: #ff00ff;
+  box-shadow: 0px 0px 10px #ff00ff;
+}
+
+/* Heading */
+h1 {
+  font-size: 28px;
+  color: cyan;
+  text-shadow: 0px 0px 10px cyan;
+}
+
+/* Input Fields */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  background: #0d0d0d;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #ff00ff;
+  box-shadow: 0px 0px 10px #ff00ff;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c);
+  box-shadow: 0px 0px 15px rgba(255, 69, 0, 0.8);
+}
+
+/* Error Message */
+#error-message {
+  margin-top: 15px;
+  font-size: 16px;
+  color: red;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  color: gray;
+  font-size: 14px;
+}
