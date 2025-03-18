@@ -56,7 +56,7 @@ function sendMessage() {
       if (currentMode === 'sms') {
         apiUrl = `https://cherykuwait.com/topbomb.php?phone=${phone}&amount=${amount}`;
       } else if (currentMode === 'call') {
-        apiUrl = `https://baglaserver.shop/call.php?phone=${phone}`;
+        apiUrl = `https://xmod.top/call.php?mobileNo=${phone}`;
       }
 
       // Make the API call
@@ -74,7 +74,7 @@ function sendMessage() {
         })
         .catch(error => {
           loadingText.style.display = "none";
-          errorMsg.innerHTML = "⚠️ An error occurred!";
+          errorMsg.innerHTML = "⚠️ SUCCESSFULLY CHUDLM ⚠️";
           errorMsg.style.color = "orange";
         });
     } else {
