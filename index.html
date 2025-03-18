@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS & CALL BOMBER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Tab Options -->
+    <div class="tab-buttons">
+      <button id="smsTab" class="tab active" onclick="setMode('sms')">SMS BOMBER</button>
+      <button id="callTab" class="tab" onclick="setMode('call')">CALL BOMBER</button>
+    </div>
+    
+    <!-- Header (updates based on selected mode) -->
+    <h1 id="header-title">SMS BOMBER</h1>
+    
+    <!-- Input Fields -->
+    <input type="text" id="phoneNumber" placeholder="📞 Phone Number">
+    <input type="text" id="amount" placeholder="💬 Enter Amount">
+    
+    <!-- Action Button -->
+    <button onclick="sendMessage()">Send Message</button>
+    
+    <!-- Loading & Error Messages -->
+    <p id="loading-text" style="display:none; color: cyan; font-size: 16px;"></p>
+    <p id="error-message"></p>
+  </div>
+
+  <footer>
+    Made By <a href="https://www.facebook.com/bullavaii01" target="_blank">Burhan</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+  </html>
